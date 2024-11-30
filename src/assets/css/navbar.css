@@ -1,0 +1,73 @@
+.custom-navbar {
+  background-color: #343a40;
+  padding: 15px 0;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  height: 70px; /* Fixed height for the navbar */
+  display: flex;
+  align-items: center; /* Center content vertically */
+}
+
+.custom-navbar .brand {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center; /* Align brand/logo */
+}
+
+.custom-navbar .brand:hover {
+  color: #ffc107;
+}
+
+.navbar-logo {
+  height: 180px; /* Increased height */
+  width: 70px; /* Increased width */
+  object-fit: contain; /* Ensures proper scaling without distortion */
+  max-height: 70px; /* Prevents logo from overflowing navbar height */
+}
+
+.custom-navbar .nav-link {
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin: 0 15px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  position: relative;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffc107;
+  transform: translateY(-2px);
+}
+
+.custom-navbar .nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ffc107;
+  transition: width 0.3s ease;
+  margin-top: 5px;
+}
+
+.custom-navbar .nav-link:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .custom-navbar .nav-link {
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-logo {
+    height: 70px; /* Adjust logo size for smaller screens */
+    width: auto;
+    max-height: 50px; /* Ensure it stays aligned with navbar */
+  }
+}

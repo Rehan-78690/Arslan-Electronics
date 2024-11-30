@@ -1,0 +1,54 @@
+.about-us-page {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  margin-left: 0px;
+    margin-right: 0px;
+}
+
+.about-us-page .section {
+  margin-bottom: 50px;
+}
+
+.about-us-page .section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-us-page .section-description {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-us-page .cta-button {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.about-us-page .cta-button:hover {
+  background-color: #0056b3;
+}
+
+.about-us-page .about-image {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .about-us-page .section {
+    text-align: center;
+  }
+
+  .about-us-page .section-title {
+    font-size: 1.8rem;
+  }
+
+  .about-us-page .section-description {
+    font-size: 1rem;
+  }
+}

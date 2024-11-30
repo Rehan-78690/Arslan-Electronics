@@ -1,0 +1,66 @@
+.team-page {
+    padding: 50px 0;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    color: #333;
+  }
+  
+  .team-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0d6efd;
+    margin-bottom: 15px;
+  }
+  
+  .team-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .team-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .team-image {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 200px;
+    object-fit: contain;
+  }
+  
+  .team-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+  }
+  
+  .team-role {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #6c757d;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .team-title {
+      font-size: 2rem;
+    }
+  
+    .team-description {
+      font-size: 1rem;
+    }
+  
+    .team-card {
+      margin: 0 auto;
+    }
+  }
+  

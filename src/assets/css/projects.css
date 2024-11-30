@@ -1,0 +1,40 @@
+.projects-page {
+  background: #f8f9fa; /* Light gray background */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 3px solid purple;
+}
+
+.projects-page h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: purple;
+}
+
+.projects-page button {
+  background-color: #86010c;
+  border: none;
+  transition: background-color 0.3s ease;
+  color:white;
+}
+
+.projects-page button:hover {
+  background-color: #0056b3;
+}

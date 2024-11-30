@@ -1,0 +1,14 @@
+.project-details-page {
+  background-color: #fff;
+  padding: 2rem 0;
+}
+
+.project-detail-image {
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.project-details-page h4 {
+  color: #007bff;
+  font-weight: bold;
+}
